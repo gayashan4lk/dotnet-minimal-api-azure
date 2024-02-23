@@ -1,0 +1,11 @@
+@MockAPI_HostAddress = http://localhost:5273
+
+GET {{MockAPI_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{MockAPI_HostAddress}}/todos/1
+Accept: application/json
+
+###
